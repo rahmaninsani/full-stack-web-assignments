@@ -1,0 +1,27 @@
+AlgoritmaFizzBuzz
+// I.S. Pengguna memasukkan nilai maksimal
+// F.S. Menampilkan daftar angka dengan format FizzBuzz
+
+DECLARATION
+  CONST minNilai = 1
+  maksNilai : INTEGER
+
+ALGORITHM
+  INPUT maksNilai
+
+  WHILE maksNilai < 1 DO
+    OUTPUT "Angka yang dimasukkan minimal 1"
+    INPUT maksNilai
+  END WHILE
+
+  FOR i <- minNilai TO maksNilai DO
+    IF (i mod 3 = 0) AND (i mod 5 = 0) THEN
+      OUTPUT "FizzBuzz"
+    ELSE IF (i mod 3 = 0) THEN
+      OUTPUT "Fizz"
+    ELSE IF (i mod 5 = 0) THEN
+      OUTPUT "Buzz"
+    ELSE
+      OUTPUT i
+    END IF
+  END FOR
