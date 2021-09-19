@@ -1,0 +1,27 @@
+AlgortimaSkilvulGrading
+// I.S. Pengguna memasukkan nilai siswa
+// F.S. Menampilkan nilai akhir dan status kelulusan
+
+DECLARATION
+  nilaiAwal, nilaiAkhir : INTEGER
+
+ALGORITHM
+  INPUT nilaiAwal
+  
+  IF (nilaiAwal >= 68) THEN
+    IF (nilaiAwal % 5 = 3) THEN
+      nilaiAkhir <- nilaiAwal + 2
+    ELSE IF (nilaiAwal % 5 = 4) THEN
+      nilaiAkhir <- nilaiAwal + 1
+    ELSE
+      nilaiAkhir <- nilaiAwal
+    END IF
+
+    OUTPUT "Nilai Awal  : ", nilaiAwal
+    OUTPUT "Nilai Akhir : ", nilaiAkhir
+    OUTPUT "Status      : Lulus"
+  ELSE
+    OUTPUT "Nilai Awal  : ", nilaiAwal
+    OUTPUT "Nilai Akhir : ", nilaiAwal
+    OUTPUT "Status  : Tidak Lulus"
+  END IF
