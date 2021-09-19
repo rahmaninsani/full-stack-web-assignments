@@ -1,0 +1,22 @@
+AlgoritmaKonversiSuhu
+// I.S. Pengguna memasukkan temperatur dan satuan temperatur
+// F.S. Menampilkan hasil konversi suhu
+
+DECLARATION
+  temperatur, hasil : REAL
+  satuanTemperatur : STRING
+
+ALGORITHM
+  INPUT temperatur
+  INPUT satuanTemperatur
+
+  IF satuanTemperatur = "Fahrenheit" THEN
+    hasil <- (temperatur - 32) * (5 / 9)
+    OUTPUT hasil
+  ELSE IF satuanTemperatur = "Kelvin" THEN
+    hasil <- temperatur - 273.15
+    OUTPUT hasil
+  ELSE 
+    hasil <- temperatur
+    OUTPUT hasil
+  END IF
