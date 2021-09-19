@@ -1,0 +1,59 @@
+// Function untuk memperoleh panjang dari teks
+FUNCTION lengthOfString(INPUT teks : STRING) -> INTEGER
+  // I.S. Function menerima parameter teks bertipe data string
+  // F.S. Mengembalikan nilai bertipe data integer dari panjang teks
+
+  DECLARATION
+    length, i : INTEGER
+
+  ALGORITHM
+    length <- 0
+
+    WHILE teks[i] != NULL DO
+      length <- length + 1
+    END WHILE
+
+    RETURN length
+END FUNCTION
+
+// Function untuk mengecek apakah sebuah teks merupakan Palindrom atau bukan
+FUNCTION isPalindromeRecursive(INPUT teks : STRING, INPUT i : INTEGER) -> BOOLEAN
+  // I.S. Function menerima parameter teks bertipe data string dan i bertipe data integer
+  // F.S. Mengembalikan nilai bertipe data boolean (TRUE/FALSE)
+
+  DECLARATION
+    FUNCTION lengthOfString(INPUT teks : STRING) -> INTEGER
+    length, i, indeksAwal, indeksAkhir : INTEGER
+
+  ALGORITHM
+    length <- lengthOfString(teks)
+
+    IF i < (length/2) THEN
+      indeksAwal <- i
+      indeksAkhir <- length - i - 1
+
+      IF teks[indeksAwal] != teks[indeksAkhir]
+        RETURN FALSE
+      ELSE
+        RETURN isPalindromeRecursive(teks, i + 1)
+      END IF
+    ELSE
+      RETURN TRUE
+    END IF 
+END FUNCTION
+
+
+// Algoritma Utama (Main)
+AlgortimaPalindrome
+// I.S. Pengguna memasukkan teks
+// F.S. Menampilkan hasil dalam bentuk boolean (TRUE/FALSE)
+
+DECLARATION
+  FUNCTION isPalindromeRecursive(INPUT teks : STRING, INPUT i : INTEGER) -> BOOLEAN
+  teks : STRING
+  hasil : BOOLEAN
+
+ALGORITHM
+  INPUT teks
+  hasil <- isPalindromeRecursive(teks, 0)
+  OUTPUT hasil
