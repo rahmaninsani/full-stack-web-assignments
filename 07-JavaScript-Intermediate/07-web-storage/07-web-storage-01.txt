@@ -1,0 +1,10 @@
+1. Apa itu localStorage?
+2. Apa itu cookies?
+3. Apa perbedaan antara localStorage dan sessionStorage?
+
+Jawaban
+1. localStorage adalah tempat penyimpanan data yang bersifat key/value pair di dalam browser dengan batas maksimal penyipmanan sebesar 5MB. localStorage juga dapat digunakan untuk menyimpan konfigurasi yang diperlukan oleh aplikasi kita.
+
+2. cookies adalah kumpulan data yang berisi riwayat aktivitas user ketika mengakses sebuah website misalnya seperti fitur remember me di halaman login. Batas penyimpanan cookies besesar 5KB.
+
+3. Jika kita menggunakan localStorage, data yang disimpan tidak memiliki batas waktu penyimpanan sampai user menghapusnya secara manual. Sedangkan jika kita menggunakan sessionStorage datanya akan hilang ketika window atau tab website tersebut ditutup. 
