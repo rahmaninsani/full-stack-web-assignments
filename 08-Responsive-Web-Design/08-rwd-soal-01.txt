@@ -1,0 +1,21 @@
+1. Apa itu responsive web design?
+Jawaban: 
+Responsive Web Design (RWD) merupakan teknik yang bertujuan agar aplikasi yang dibuat dapat diakses dari bermacam-macam perangkat yang ukuran layarnya berbeda-beda, misalnya Laptop/PC, Smartphone, dan Tablet. Teknik RWD ini akan membuat tampilan aplikasi menyesuaikan terhadap ukuran layar mobile device atau desktop device sehingga tampilannya tidak berantakan jika ukuran layarnya berbeda.
+
+2. Sebutkan apa saja relative units yang dimiliki oleh CSS?
+Jawaban:
+em, ex, ch, rem, vw, vh, vmin, vmax, %
+
+3. Apa itu breakpoint? Bagaimana cara kita membuat hal tersebut?
+Jawaban:
+Breakpoint merupakan "titik" di mana tampilan konten dan desain website akan berubah serta beradaptasi sesuai dengan ukuran layar device atau ukuran width. Untuk membuat breakpoint bisa menggunakan dua cara yaitu:
+  a. Device-based breakpoints
+  b. Content-based breakpoints
+
+4. Apa yang dapat kita gunakan untuk memanipulasi tata letak suatu element dalam bidang 1 dimensi?
+Jawaban:
+Flexbox
+
+5. Apa yang dapat kita gunakan untuk memanipulasi tata letak suatu element dalam bidang 2 dimensi?
+Jawaban:
+Grid
