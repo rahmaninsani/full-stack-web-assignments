@@ -12,8 +12,8 @@
 
 3. Apa saja yang dapat kita buat pada sisi server?
 
-   a. Media penyimpanan dan pengiriman informasi yang efisien, karena setiap informasi dapat dikelola dengan terstruktur dan dinamis.
-   b. Data-data tertentu yang berada di server bisa diolah dan dianalisis agar memberikan User Experience yang lebih baik kepada pengguna saat menggunakan aplikasi kita.
+   a. Media penyimpanan dan pengiriman informasi yang efisien, karena setiap informasi dapat dikelola dengan terstruktur dan dinamis.  
+   b. Data-data tertentu yang berada di server bisa diolah dan dianalisis agar memberikan User Experience yang lebih baik kepada pengguna saat menggunakan aplikasi kita.  
    c. Mengontrol hak akses setiap konten yang ada di server sesuai role pengguna yang mengaksesnya sehingga lebih aman dan terjaga.
    <br>
 
@@ -27,8 +27,8 @@
    a. GET, berfungsi untuk membaca data/resource dari REST server.  
     b. POST, berfungsi untuk membuat sebuah data/resource baru di REST server.  
     c. PUT, berfungsi untuk memperbaharui data/resource di REST server.  
-    d. DELETE, berfungsi untuk menghapus data/resource dari REST server.
-   c. OPTIONS, berfungsi untuk mendapatkan operasi yang disupport pada resource dari REST server.  
+    d. DELETE, berfungsi untuk menghapus data/resource dari REST server.  
+   e. OPTIONS, berfungsi untuk mendapatkan operasi yang disupport pada resource dari REST server.  
    <br>
 
 6. Apa fungsi dari Response Codes?  
