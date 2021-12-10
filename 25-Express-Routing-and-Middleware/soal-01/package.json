@@ -1,0 +1,19 @@
+{
+  "name": "soal-01",
+  "version": "1.0.0",
+  "description": "Soal 01 Tugas 25. Express Routing and Middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Rahman Insani",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
