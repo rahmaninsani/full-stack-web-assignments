@@ -1,0 +1,16 @@
+URL: https://rahman-insani.herokuapp.com
+
+1. GET /hewan
+  Menampilkan semua data hewan
+
+2. GET /hewan/:id
+  Menampilkan satu data hewan berdasarkan id <number>
+
+3. POST /hewan
+  Menambahkan satu data hewan baru
+
+4. PUT /hewan/:id
+  Memperbarui satu data hewan berdasarkan id <number>
+
+5. DELETE /hewan/:id
+  Menghapus satu data hewan berdasarkan id <number>
